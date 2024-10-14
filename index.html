@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Packs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="quotationForm">
+        <!-- Main Section -->
+        <section class="main">
+            <div class="mainContent">
+                <div class="mainHeadings">
+                    <h3>Request a</h3>
+                    <h1>QUOTATION</h1>
+                </div>
+                <div class="form">
+                    <div class="labels">
+                        <label for="fullName">FULL NAME</label>
+                        <label for="email">EMAIL ADDRESS</label>
+                        <label for="phoneNum">PHONE NUMBER</label>
+                    </div>
+                    <div class="inputs">
+                        <input type="text" id="fullName" placeholder="Enter Your Full Name">
+                        <input type="email" id="email" placeholder="John@doe.com">
+                        <input type="tel" id="phoneNum" placeholder="Eg +1300 4005000">
+                    </div>
+                </div>
+            </div>
+            <div class="mainImg">
+                <img src="./img/main-box.png" alt="main box">
+            </div>
+        </section>
+        <!-- Product Category Section -->
+        <section class="productCategory">
+            <div class="productsCategoryHeadings">
+                <h1>PRODUCT</h1>
+                <h3>Category</h3>
+            </div>
+            <div class="radioBtnsCategory">
+                <div>
+                    <img src="./img/03.png" alt="Product Boxes">
+                    <input type="radio" id="productBoxes" name="productBoxes" data-img="./img/Box1.svg">
+                    <label for="productBoxes">
+                        <p><b>PRODUCT</b> BOXES</p>
+                    </label>
+                </div>
+                <div>
+                    <img src="./img/02.png" alt="Mailer Boxes">
+                    <input type="radio" id="mailerBoxes" name="productBoxes" data-img="./img/Box2.svg">
+                    <label for="mailerBoxes">
+                        <p><b>MAILER</b> BOXES</p>
+                    </label>
+                </div>
+                <div>
+                    <img src="./img/01.png" alt="Shipper Boxes">
+                    <input type="radio" id="shipperBoxes" name="productBoxes" data-img="./img/Box.png" checked>
+                    <label for="shipperBoxes">
+                        <p><b>SHIPPER</b> BOXES</p>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <!-- Dimensions Section -->
+        <section class="dimensions">
+            <div class="dimensionsContent">
+                <div class="headings">
+                    <h3>Box</h3>
+                    <h1>DIMENSIONS</h1>
+                </div>
+                <div class="dimensionsDropdown">
+                    <div class="selectLength">
+                        <label for="length">LENGTH</label>
+                        <select name="length" id="length">
+                        </select>
+                    </div>
+                    <div class="selectWidth">
+                        <label for="width">WIDTH</label>
+                        <select name="width" id="width">
+                        </select>
+                    </div>
+                    <div class="selectHeight">
+                        <label for="height">HEIGHT</label>
+                        <select name="height" id="height">
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="dimensionImg">
+                <img width="500px" id="boxImg" src="./img/Box.png" alt="Dimension Box">
+            </div>
+        </section>
+        <!-- Material Preference -->
+        <section>
+            <div class="materialPreference">
+                <div class="icon-boxes radioBtnsCategory">
+                    <hr class="icon-line">
+                    <div class="single-icon-boxes">
+                        <div class="icon-img">
+                            <img src="img/001-cardboard-box.png" alt="" srcset="">
+                        </div>
+                        <label for="recyclable">
+                            <p><b>Recyclable</b><br> Cardboard</p>
+                        </label>
+                        <input type="radio" id="recyclable" name="materialPreference">
+                    </div>
+                    <hr class="icon-line">
+                    <div class="single-icon-boxes">
+                        <div class="icon-img">
+                            <img src="img/FSC.png" alt="" srcset="">
+                        </div>
+                        <label for="fscoCertified">
+                            <p><b>fsco-certified</b><br> Data</p>
+                        </label>
+                        <input type="radio" id="fscoCertified" name="materialPreference">
+                    </div>
+                    <hr class="icon-line">
+                    <div class="single-icon-boxes">
+                        <div class="icon-img">
+                            <img src="img/002-bag.png" alt="" srcset="">
+                        </div>
+                        <label for="biodegradeable">
+                            <p><b>biodegradeable</b><br> materials</p>
+                        </label>
+                        <input type="radio" id="biodegradeable" name="materialPreference" checked>
+                    </div>
+                    <hr class="icon-line">
+                </div>
+                <div class="material-headings">
+                    <h1>Material</h1>
+                    <h3>Preference</h3>
+                </div>
+            </div>
+            <div class="colorSelection">
+                <div class="colorSelectionBtns">
+                    <div class="colorHeadings">
+                        <h1>COLOR</h1>
+                        <h3>Options</h3>
+                    </div>
+                    <div class="colorRadioBtns">
+                        <div>
+                            <div class="clrBtn">
+                                <input type="radio" id="cmyk" name="color">
+                                <label for="cmyk">CMYK</label>
+                            </div>
+                            <div class="clrBtn">
+                                <input type="radio" id="multiColor" name="color">
+                                <label for="multiColor">Multi-Color</label>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="clrBtn">
+                                <input type="radio" id="singleColor" name="color">
+                                <label for="singleColor">Single Color</label>
+                            </div>
+                            <div class="clrBtn">
+                                <input type="radio" id="noPreference" name="color" checked>
+                                <label for="noPreference">No Preference</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="colorImg">
+                    <img width="200px" src="img/color.png" alt="not found">
+                </div>
+            </div>
+        </section>
+        <!-- Printing and Finishing -->
+        <section class="printingFinishing">
+            <div class="printing">
+                <div class="printingHeadings">
+                    <h1>PRINTING</h1>
+                    <h3>Options</h3>
+                </div>
+                <div class="printingRadioBtns">
+                    <div>
+                        <input type="radio" id="insideOutside" name="printing">
+                        <label for="insideOutside">INSIDE AND OUTSIDE</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="inside" name="printing">
+                        <label for="inside">INSIDE ONLY</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="outside" name="printing" checked>
+                        <label for="outside">OUTSIDE ONLY</label>
+                    </div>
+                </div>
+            </div>
+            <div class="finishing">
+                <div class="finishingHeadings">
+                    <h1>FINISHING</h1>
+                    <h3>Options</h3>
+                </div>
+                <div class="finishingRadioBtns">
+                    <div>
+                        <input type="radio" id="matte" name="finishing">
+                        <label for="matte">MATTE</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="glossy" name="finishing">
+                        <label for="glossy">GLOSSY</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="noFinish" name="finishing" checked>
+                        <label for="noFinish">NO FINISH</label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quantity -->
+        <section class="quantity">
+            <div class="quantity-headings">
+                <h1>QUANTITY</h1>
+                <h2>Minimum Order Quantity Applies</h2>
+            </div>
+            <div class="colorRadioBtns quantity-radio-btn">
+                <div>
+                    <div class="clrBtn">
+                        <input type="radio" id="quantity100" name="quantity" checked>
+                        <label for="quantity100">50-100</label>
+                    </div>
+                    <div class="clrBtn">
+                        <input type="radio" id="quantity500" name="quantity">
+                        <label for="quantity500">101-500</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="clrBtn">
+                        <input type="radio" id="quantity1000" name="quantity">
+                        <label for="quantity1000">501-1000</label>
+                    </div>
+                    <div class="clrBtn">
+                        <input type="radio" id="maxQuantity" name="quantity">
+                        <label for="maxQuantity">1000+</label>
+                    </div>
+                </div>
+            </div>
+            <div class="comments-field">
+                <h2>FURTHER COMMENTS / SPECIFICATIONS</h2>
+                <textarea cols="95" rows="9" name="" id="textarea-field"
+                    placeholder="Comments/Specifications Required"></textarea>
+                <div class="quantity-details">
+                    <p>Please provide as many details as possible about your project to help us
+                        quickly deliver precisely what you need. The more information you share, the faster we can
+                        tailor
+                        our solutions. Feel free to attach any referneces or artwork to better guide our process.
+                    </p>
+                </div>
+
+            </div>
+            <input type="submit" id="submit" value="Submit">
+        </section>
+    </form>
+
+    <script>
+        function appendOptionsToSelect(selectIds, options) {
+            selectIds.forEach(selectId => {
+                const selectElement = document.getElementById(selectId);
+
+                const initialOption = document.createElement('option');
+                initialOption.value = '';
+                initialOption.textContent = 'CM/INCHES';
+                initialOption.disabled = true;
+                initialOption.selected = true;
+                selectElement.appendChild(initialOption);
+
+                options.forEach(option => {
+                    const optionElement = document.createElement('option');
+                    optionElement.value = option.value;
+                    optionElement.textContent = option.text;
+                    selectElement.appendChild(optionElement);
+                });
+
+                selectElement.addEventListener('change', function () {
+                    if (this.value !== '') {
+                        initialOption.remove();
+                    }
+                });
+            });
+        }
+
+        const options = [];
+        for (let i = 1; i <= 50; i++) {
+            options.push({ value: `${i}`, text: `${i}` });
+        }
+
+        const selectIds = ['length', 'width', 'height'];
+
+        appendOptionsToSelect(selectIds, options);
+
+
+
+        const radioButtons = document.querySelectorAll('input[name="productBoxes"]');
+        const imageDisplay = document.getElementById('boxImg');
+        radioButtons.forEach(radio => {
+            radio.addEventListener('change', function () {
+                if (this.checked) {
+                    imageDisplay.src = this.getAttribute('data-img');
+                }
+            });
+        });
+
+        // Submit form
+        document.getElementById('quotationForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const fullName = document.getElementById('fullName').value;
+            const email = document.getElementById('email').value;
+            const phoneNum = document.getElementById('phoneNum').value;
+
+            if (!fullName || !email || !phoneNum) {
+                alert("Please fill in all required fields.");
+                return;
+            }
+
+            console.log("Form submitted with:", {
+                fullName,
+                email,
+                phoneNum
+            });
+
+            document.getElementById('quotationForm').reset();
+        });
+
+    </script>
+</body>
+
+</html>

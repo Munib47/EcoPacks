@@ -1,0 +1,747 @@
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main {
+    background-color: #f6f4f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    width: 100%;
+}
+
+.mainContent {
+    width: 50%;
+}
+
+.mainHeadings {
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+
+.main h3 {
+    margin: 0px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.main h1 {
+    color: #8e7654;
+    margin: 0px;
+    font-size: 45px;
+}
+
+.form {
+    display: flex;
+}
+
+.labels {
+    background-color: #8e7654;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    text-align: right;
+    z-index: 10;
+    width: 200px;
+}
+
+.labels label {
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 0px
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    margin: 10px 0px;
+    margin-left: -17px;
+    padding: 10px 0px 10px 30px;
+    border: 1px solid #deb782;
+    border-radius: 50px;
+    width: 300px;
+    outline: none;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+.mainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 150px 0px 0px 0px;
+}
+
+.productCategory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.productsCategoryHeadings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsCategoryHeadings h1 {
+    color: #8e7654;
+    font-size: 45px;
+}
+
+.productsCategoryHeadings h3 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 7px;
+}
+
+.radioBtnsCategory {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.radioBtnsCategory div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.radioBtnsCategory input[type="radio"] {
+    margin: 10px 0px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.radioBtnsCategory input[type="radio"]:not(:checked) {
+    background-color: #fff;
+}
+
+.radioBtnsCategory input[type="radio"]:checked {
+    border-color: #8e7654;
+}
+
+.radioBtnsCategory input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #8e7654;
+    border-radius: 50%;
+}
+
+.radioBtnsCategory div img {
+    width: 200px;
+}
+
+.dimensions {
+    background-image: url("img/order-Now-Page-copy-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.dimensions .dimensionsContent {
+    padding-left: 100px;
+}
+
+.dimensions .dimensionsContent .headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.dimensions .dimensionsContent .headings h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.dimensions .dimensionsContent .headings h1 {
+    font-size: 45px;
+    padding-left: 7px;
+}
+
+.dimensionsDropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 90%;
+    padding-top: 30px;
+    margin-left: -20px;
+}
+
+.selectLength,
+.selectWidth {
+    padding-bottom: 10px;
+}
+
+.selectLength label,
+.selectWidth label,
+.selectHeight label {
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+select {
+    width: 200px;
+    padding: 10px;
+    padding-right: 40px;
+    border: 2px solid #8e7654;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px;
+}
+
+option {
+    color: #000;
+}
+
+select:focus {
+    border-color: #8e7654;
+    outline: none;
+}
+
+.dimensionImg {
+    padding: 150px 100px 0px 0px;
+}
+
+.colorSelection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.colorSelectionBtns {
+    padding-left: 150px;
+    width: 50%;
+}
+
+.colorHeadings {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.colorHeadings h1 {
+    font-size: 45px;
+    color: #8e7654;
+}
+
+.colorHeadings h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.colorRadioBtns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.clrBtn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.colorRadioBtns input[type="radio"] {
+    margin: 10px 0px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.colorRadioBtns input[type="radio"]:not(:checked) {
+    background-color: #fff;
+}
+
+.colorRadioBtns input[type="radio"]:checked {
+    border-color: #8e7654;
+}
+
+.colorRadioBtns input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7.5px;
+    height: 7.5px;
+    background-color: #8e7654;
+    border-radius: 50%;
+}
+
+.colorRadioBtns label {
+    padding-left: 5px;
+}
+
+.printingFinishing {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.printing,
+.finishing {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-top: 2px solid #deb782;
+    border-bottom: 2px solid #deb782;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.finishing {
+    background-color: #deb782;
+    color: white;
+}
+
+.printingHeadings,
+.finishingHeadings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.printingHeadings h1 {
+    font-size: 45px;
+    color: #8e7654;
+}
+
+.finishingHeadings h1 {
+    font-size: 45px;
+}
+
+.printingHeadings h3,
+.finishingHeadings h3 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 7px;
+}
+
+.printingRadioBtns,
+.finishingRadioBtns {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.printingRadioBtns div,
+.finishingRadioBtns div {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.printingRadioBtns input[type="radio"],
+.finishingRadioBtns input[type="radio"] {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #999;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.printingRadioBtns input[type="radio"]:not(:checked),
+.finishingRadioBtns input[type="radio"]:not(:checked) {
+    background-color: #fff;
+}
+
+.printingRadioBtns input[type="radio"]:checked,
+.finishingRadioBtns input[type="radio"]:checked {
+    border-color: #8e7654;
+}
+
+.printingRadioBtns input[type="radio"]:checked::before,
+.finishingRadioBtns input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 7.5px;
+    height: 7.5px;
+    background-color: #8e7654;
+    border-radius: 50%;
+}
+
+.quantity {
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comments-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 53%;
+}
+
+.comments-field  #textarea-field{
+    outline: none;
+    border: 2px solid #8e7654;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+.comments-field h2{
+    color:#8e7654;
+}
+.quantity input[type="submit"]{
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: #8e7654;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+.comments-field .quantity-details{
+    text-align: center;
+    width: 87%;
+    margin-bottom: 20px;
+}
+.quantity-headings{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.quantity-headings h1{
+    color: #8e7654;
+    font-size: 50px;
+    letter-spacing: 30px;
+    margin-left: 30px;
+}
+.quantity-radio-btn {
+    display: flex;
+    justify-content: start;
+}
+.quantity-radio-btn input[type="radio"]{
+    margin: 6px 0px;
+}
+.colorImg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.materialPreference{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 15px;
+}
+.icon-boxes{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+}
+.material-headings {
+    width: 40%;
+}
+.material-headings h1{
+    background-color: #8e7654;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.material-headings h3{
+    padding-left: 20px;
+    font-size: 23px;
+}
+.single-icon-boxes .icon-img img{
+    width: 50px;
+    height: 50px;
+}
+.icon-line{
+    width: 120%;
+    height: 1px;
+    background-color: #8e7654;
+    margin-top: 25px;
+}
+.materialPreference .radioBtnsCategory {
+    padding: 0px;
+}
+.single-icon-boxes {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+.single-icon-boxes label {
+    text-align: center;
+}
+.single-icon-boxes label p {
+    text-transform: uppercase;
+}
+.icon-img {
+    margin-bottom: 4px;
+}
+.materialPreference .radioBtnsCategory div{
+    display: block;
+}
+.materials-icons {
+    width: 70%;
+}
+.icon-box-content {
+    width: 100%;
+    display: flex;
+}
+@media only screen and (min-width:320px)and (max-width:767px){
+    .main{
+        flex-direction: column;
+        grid-row-gap: 30px;
+        padding: 20px 0px;
+    }
+    .productCategory{
+        padding: 20px 0px;
+    }
+    .dimensions{
+        flex-direction: column;
+        padding: 20px 0px;
+        grid-row-gap: 30px;
+    }
+    .printingFinishing{
+        flex-direction: column;
+    }
+    .radioBtnsCategory{
+        flex-direction: column;
+        order: 2;
+    }
+    .materialPreference{
+        flex-direction: column;
+    }
+    .colorSelection{
+        flex-direction: column;
+        padding: 20px 0px;
+        grid-row-gap: 30px;
+    }
+    .mainContent{
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], input[type="tel"] {
+        width: 90%;
+    }
+    .mainImg {
+        width: 80%;
+        padding: 0px;
+    }
+    .mainImg img{
+        width: 100%;
+    }
+    .dimensionImg {
+        padding: 0px;
+        width: 80%;
+
+    }
+    .dimensionImg img {
+        width: 100%;
+    }
+    .colorImg {
+        /* width: 100%; */
+        padding: 0px;
+    }
+    .colorImg img {
+        width: 100%;
+    }
+    .printing {
+        width: 100%;
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .printingHeadings{
+        padding-left: 20px;
+    }
+    .finishing{
+        width: 100%;
+        padding: 0px;  
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .finishingHeadings{
+        padding-left: 20px;
+    }
+    .printingRadioBtns div, .finishingRadioBtns div {
+        padding: 7px 0px;
+    }
+    .colorSelectionBtns{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .material-headings{
+        width: 100%;
+        padding: 0px;
+        order: 1;
+        padding-bottom: 15px;
+    }
+    .material-headings h1 {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .material-headings h3 {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .single-icon-boxes {
+        padding-bottom: 10px;
+    }
+    .icon-boxes{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .icon-boxes hr {
+        display: none;
+    }
+    .comments-field #textarea-field {
+        width: 85%;
+    }
+    .comments-field{
+        width: 100%;
+    }
+    .quantity-headings h1 {
+        letter-spacing: 10px;
+        margin: 0px;
+    }
+    .dimensions .dimensionsContent{
+        padding-left: 0px;
+    }
+    .quantity{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .quantity-headings h2 {
+        font-size: 17px;
+    }
+    .comments-field h2 {
+        font-size: 18px;
+    }
+    .colorHeadings{
+        padding-left: 20px;
+    }
+    .colorRadioBtns{
+        padding-left: 35px;
+    }
+}
+@media only screen and (min-width:768px)and (max-width:1023px){
+    .icon-line{
+        display: none;
+    }
+    .icon-boxes{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 68%;
+    }
+    .materialPreference{
+        align-items: center;
+    }
+    .colorImg{
+        padding: 0px;
+        padding-right: 20px;
+    }
+    .colorSelectionBtns{
+        padding: 0px;
+        padding-left: 20px;
+    }
+    .mainImg{
+        padding-right: 30px;
+    }
+    .mainImg img {
+        width: 100%;
+    }
+    input[type="text"], input[type="email"], input[type="tel"] {
+        width: 100%;
+    }
+    .labels{
+        width: 160px;
+    }
+    .radioBtnsCategory{
+        width: 80%;
+    }
+    .dimensionImg{
+        padding-right: 30px;
+    }
+    .dimensionImg img {
+        width: 100%;
+    }
+    .comments-field{
+        width: 100%;
+    }
+    .comments-field .quantity-details{
+        width: 80%;
+    }
+    .printing{
+        padding-left: 40px;
+    }
+}
+
