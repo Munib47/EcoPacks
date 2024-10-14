@@ -215,7 +215,7 @@ input[type="tel"] {
     align-items: end;
     width: 90%;
     padding-top: 30px;
-    margin-left: -145px;
+    margin-left: -135px;
 }
 
 .selectLength,
@@ -451,6 +451,10 @@ select:focus {
     border-radius: 50%;
 }
 
+.printingRadioBtns label, .finishingRadioBtns label {
+    font-size: 22px;
+}
+
 .quantity {
     padding: 50px 0px;
     display: flex;
@@ -623,6 +627,9 @@ select:focus {
     }
     .dimensions .dimensionsContent .headings h3 {
         font-size: 22px;
+    }
+    .dimensionsDropdown {
+        margin-left: 0px;
     }
     .colorHeadings h1 {
         font-size: 45px;
