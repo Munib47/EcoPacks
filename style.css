@@ -25,13 +25,15 @@
 .main h3 {
     margin: 0px;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 32px;
 }
 
 .main h1 {
     color: #8e7654;
     margin: 0px;
-    font-size: 45px;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .form {
@@ -103,11 +105,13 @@ input[type="tel"] {
 
 .productsCategoryHeadings h1 {
     color: #8e7654;
-    font-size: 45px;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .productsCategoryHeadings h3 {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: normal;
     padding-left: 7px;
 }
@@ -117,6 +121,14 @@ input[type="tel"] {
     display: flex;
     justify-content: space-between;
     width: 60%;
+}
+
+.boxes {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .radioBtnsCategory div {
@@ -185,13 +197,15 @@ input[type="tel"] {
 }
 
 .dimensions .dimensionsContent .headings h3 {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: normal;
 }
 
 .dimensions .dimensionsContent .headings h1 {
-    font-size: 45px;
+    font-size: 65px;
     padding-left: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .dimensionsDropdown {
@@ -201,7 +215,7 @@ input[type="tel"] {
     align-items: end;
     width: 90%;
     padding-top: 30px;
-    margin-left: -20px;
+    margin-left: -145px;
 }
 
 .selectLength,
@@ -269,12 +283,14 @@ select:focus {
 }
 
 .colorHeadings h1 {
-    font-size: 45px;
+    font-size: 65px;
     color: #8e7654;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .colorHeadings h3 {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: normal;
 }
 
@@ -327,6 +343,7 @@ select:focus {
 
 .colorRadioBtns label {
     padding-left: 5px;
+    font-size: 22px;
 }
 
 .printingFinishing {
@@ -363,17 +380,21 @@ select:focus {
 }
 
 .printingHeadings h1 {
-    font-size: 45px;
+    font-size: 65px;
     color: #8e7654;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .finishingHeadings h1 {
-    font-size: 45px;
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 
 .printingHeadings h3,
 .finishingHeadings h3 {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: normal;
     padding-left: 7px;
 }
@@ -452,6 +473,10 @@ select:focus {
 }
 .comments-field h2{
     color:#8e7654;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 .quantity input[type="submit"]{
     width: 125px;
@@ -475,13 +500,19 @@ select:focus {
 }
 .quantity-headings h1{
     color: #8e7654;
-    font-size: 50px;
+    font-size: 65px;
     letter-spacing: 30px;
     margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.quantity-headings h2 {
+    font-weight: normal;
 }
 .quantity-radio-btn {
     display: flex;
     justify-content: start;
+    padding-top: 15px;
 }
 .quantity-radio-btn input[type="radio"]{
     margin: 6px 0px;
@@ -510,12 +541,15 @@ select:focus {
     background-color: #8e7654;
     color: #fff;
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 65px;
     padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
 }
 .material-headings h3{
     padding-left: 20px;
-    font-size: 23px;
+    font-size: 32px;
+    font-weight: normal;
 }
 .single-icon-boxes .icon-img img{
     width: 50px;
@@ -537,6 +571,7 @@ select:focus {
 }
 .single-icon-boxes label {
     text-align: center;
+    cursor: pointer;
 }
 .single-icon-boxes label p {
     text-transform: uppercase;
@@ -560,6 +595,18 @@ select:focus {
         grid-row-gap: 30px;
         padding-top: 100px;
     }
+    .main h1 {
+        font-size: 45px;
+    }
+    .main h3 {
+        font-size: 22px;
+    }
+    .productsCategoryHeadings h1 {
+        font-size: 45px;
+    }
+    .productsCategoryHeadings h3 {
+        font-size: 22px;
+    }
     .labels {
         width: 150px;
     }
@@ -570,6 +617,18 @@ select:focus {
         flex-direction: column;
         padding: 20px 0px;
         grid-row-gap: 30px;
+    }
+    .dimensions .dimensionsContent .headings h1 {
+        font-size: 45px;
+    }
+    .dimensions .dimensionsContent .headings h3 {
+        font-size: 22px;
+    }
+    .colorHeadings h1 {
+        font-size: 45px;
+    }
+    .colorHeadings h3 {
+        font-size: 22px;
     }
     .printingFinishing{
         flex-direction: column;
@@ -652,10 +711,12 @@ select:focus {
     .material-headings h1 {
         padding-left: 0px;
         text-align: center;
+        font-size: 45px;
     }
     .material-headings h3 {
         padding-left: 0px;
         text-align: center;
+        font-size: 22px;
     }
     .single-icon-boxes {
         padding-bottom: 10px;
@@ -676,6 +737,7 @@ select:focus {
     .quantity-headings h1 {
         letter-spacing: 10px;
         margin: 0px;
+        font-size: 45px;
     }
     .dimensions .dimensionsContent{
         padding-left: 0px;
@@ -695,6 +757,13 @@ select:focus {
     }
     .colorRadioBtns{
         padding-left: 35px;
+        padding-top: 10px;
+    }
+    .printingHeadings h1, .finishingHeadings h1 {
+        font-size: 45px;
+    }
+    .printingHeadings h3, .finishingHeadings h3 {
+        font-size: 22px;
     }
 }
 @media only screen and (min-width:768px)and (max-width:1023px){
