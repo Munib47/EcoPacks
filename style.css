@@ -688,7 +688,7 @@ select:focus {
         font-size: 17px;
     }
     .comments-field h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
     .colorHeadings{
         padding-left: 20px;
@@ -698,6 +698,9 @@ select:focus {
     }
 }
 @media only screen and (min-width:768px)and (max-width:1023px){
+    .radioBtnsCategory {
+        width: 80%;
+    }
     .icon-line{
         display: none;
     }
