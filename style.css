@@ -656,7 +656,7 @@ select:focus {
         width: 100%;
     }
     input[type="text"], input[type="email"], input[type="tel"] {
-        width: 100%;
+        width: 90%;
     }
     .mainImg {
         width: 80%;
